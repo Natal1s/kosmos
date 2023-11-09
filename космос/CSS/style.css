@@ -1,0 +1,124 @@
+:root {
+	box-sizing: border-box;
+}
+
+html {
+	position: relative;
+	background: url('https://rprtphoto.files.wordpress.com/2011/06/big-dipper.jpg') 0;
+	min-height: 100%;
+	font-size: 20px;
+	color: #fff;
+}
+
+
+
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin: 0;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0px auto;
+}
+
+.main-content {
+	padding: 20px;
+	margin: 20px 0;
+	border-radius: 6px;
+	background-color: #444;
+}
+
+.main-text {
+	text-align: center;
+}
+
+.block-input {
+	margin: 20px 0;
+}
+
+.block-input>input {
+	font-size: 1rem;
+}
+
+h1 {
+	margin: 0 0 20px 0;
+}
+
+img {
+	width: 100%;
+}
+
+.container-planets {
+	position: relative;
+	padding: 0 50px;
+}
+
+.swiper-pagination {
+	position: relative;
+	margin-top: 10px;
+}
+
+.swiper-pagination-bullet-active {
+	background-color: #fff;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	color: #fff;
+}
+
+
+.block-planet {
+	display: flex;
+	align-items: center;
+}
+
+.block-planet:last-child {
+	margin-bottom: 0;
+}
+
+#planet {
+	font-weight: bold;
+}
+
+.block-planet>.block-image {
+	display: flex;
+	align-items: center;
+	width: 200px;
+	height: 200px;
+}
+.block-planet>.block-image>img {
+	object-fit: cover;
+}
+
+.block-planet>.block-text {
+	padding-left: 16px;
+	width: 70%;
+}
+
+.no-active{
+	display: none !important;
+}
+
+body {
+	margin: 0;
+	background: #121212;
+  }
+
+.container {
+	background-color: rgba(255, 255, 255, 0.09);
+	padding: 1rem;
+	margin-top: 1rem;
+}
+  
+.draggable {
+	padding: 1rem;
+	background-color: rgb(6, 82, 92);
+	border: 1px solid rgb(0, 0, 0);
+	cursor: pointer;
+}
+  
+.dragging {
+	background-color: rgb(209, 205, 205);
+}
